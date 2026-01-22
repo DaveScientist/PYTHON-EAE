@@ -1,0 +1,16 @@
+if (Sex > 0.5) and (Ticket > 26.5) and (Fare > 7.846) then class: 0 (proba: 100.0%) | based on 36 samples
+
+if (Sex > 0.5) and (Ticket <= 26.5) and (Name > 9.5) then class: 0 (proba: 77.78%) | based on 18 samples
+
+if (Sex <= 0.5) and (Age > 20.5) and (Name <= 66.5) then class: 1 (proba: 100.0%) | based on 16 samples
+
+if (Sex > 0.5) and (Ticket > 26.5) and (Fare <= 7.846) then class: 0 (proba: 71.43%) | based on 7 samples
+
+if (Sex <= 0.5) and (Age > 20.5) and (Name > 66.5) then class: 1 (proba: 60.0%) | based on 5 samples
+
+if (Sex <= 0.5) and (Age <= 20.5) and (PassengerId <= 65.5) then class: 1 (proba: 80.0%) | based on 5 samples
+
+if (Sex <= 0.5) and (Age <= 20.5) and (PassengerId > 65.5) then class: 0 (proba: 75.0%) | based on 4 samples
+
+if (Sex > 0.5) and (Ticket <= 26.5) and (Name <= 9.5) then class: 1 (proba: 100.0%) | based on 2 samples
+

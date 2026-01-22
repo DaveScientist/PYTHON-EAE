@@ -1,0 +1,12 @@
+feature,mean_importance
+Age,-0.05450304337015675
+PassengerId,-0.03717960290618834
+Pclass,0.0
+Name,0.0
+SibSp,0.0
+Parch,0.0
+Ticket,0.0
+Cabin,0.0
+Embarked,0.0
+Fare,0.3727675486886824
+Sex,2.293042344055336

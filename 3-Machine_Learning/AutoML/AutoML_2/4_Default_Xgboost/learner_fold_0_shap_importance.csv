@@ -1,0 +1,12 @@
+feature,shap_importance
+Sex,1.4618062
+Ticket,0.6450889
+Name,0.3780165
+Fare,0.36620685
+Age,0.28883532
+PassengerId,0.20025693
+Parch,0.047995493
+Embarked,0.04360701
+Cabin,0.03559543
+SibSp,0.023854773
+Pclass,0.001407133

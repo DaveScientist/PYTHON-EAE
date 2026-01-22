@@ -1,0 +1,455 @@
+{
+    "uid": "d6a57690-f068-48ad-85c6-d6b352cba3f5",
+    "name": "3_Linear",
+    "preprocessing": [
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "Age": 27.0,
+                        "Cabin": "C123",
+                        "Embarked": "S"
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "Name": {
+                            "Andersson, Mr. Anders Johan": 0,
+                            "Andersson, Mr. August Edvard (\"Wennerstrom\")": 1,
+                            "Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)": 2,
+                            "Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)": 3,
+                            "Barton, Mr. David John": 4,
+                            "Bateman, Rev. Robert James": 5,
+                            "Baxter, Mr. Quigg Edmond": 6,
+                            "Beesley, Mr. Lawrence": 7,
+                            "Bing, Mr. Lee": 8,
+                            "Bonnell, Miss. Elizabeth": 9,
+                            "Braund, Mr. Owen Harris": 10,
+                            "Byles, Rev. Thomas Roussel Davids": 11,
+                            "Cann, Mr. Ernest Charles": 12,
+                            "Carrau, Mr. Francisco M": 13,
+                            "Chronopoulos, Mr. Apostolos": 14,
+                            "Coelho, Mr. Domingos Fernandeo": 15,
+                            "Crease, Mr. Ernest James": 16,
+                            "Devaney, Miss. Margaret Delia": 17,
+                            "Dowdell, Miss. Elizabeth": 18,
+                            "Drazenoic, Mr. Jozef": 19,
+                            "Emir, Mr. Farred Chehab": 20,
+                            "Ford, Mr. William Neal": 21,
+                            "Fortune, Miss. Mabel Helen": 22,
+                            "Fortune, Mr. Charles Alexander": 23,
+                            "Futrelle, Mr. Jacques Heath": 24,
+                            "Futrelle, Mrs. Jacques Heath (Lily May Peel)": 25,
+                            "Glynn, Miss. Mary Agatha": 26,
+                            "Goodwin, Master. William Frederick": 27,
+                            "Goodwin, Miss. Lillian Amy": 28,
+                            "Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)": 29,
+                            "Harper, Mrs. Henry Sleeper (Myna Haxtun)": 30,
+                            "Harris, Mr. Henry Birkhardt": 31,
+                            "Holverson, Mr. Alexander Oskar": 32,
+                            "Hood, Mr. Ambrose Jr": 33,
+                            "Icard, Miss. Amelie": 34,
+                            "Jenkin, Mr. Stephen Curnow": 35,
+                            "Johansson, Mr. Gustaf Joel": 36,
+                            "Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)": 37,
+                            "Jussila, Miss. Katriina": 38,
+                            "Kraeff, Mr. Theodor": 39,
+                            "Madsen, Mr. Fridtjof Arne": 40,
+                            "Mamee, Mr. Hanna": 41,
+                            "McCarthy, Mr. Timothy J": 42,
+                            "Meyer, Mr. Edgar Joseph": 43,
+                            "Mionoff, Mr. Stoytcho": 44,
+                            "Moen, Mr. Sigurd Hansen": 45,
+                            "Moore, Mr. Leonard Charles": 46,
+                            "Moran, Miss. Bertha": 47,
+                            "Moran, Mr. James": 48,
+                            "Moubarek, Master. Gerios": 49,
+                            "Moutal, Mr. Rahamin Haim": 50,
+                            "Nasser, Mr. Nicholas": 51,
+                            "Navratil, Mr. Michel (\"Louis M Hoffman\")": 52,
+                            "Newsom, Miss. Helen Monypeny": 53,
+                            "Nicholls, Mr. Joseph Charles": 54,
+                            "Nicola-Yarred, Miss. Jamila": 55,
+                            "Novel, Mr. Mansouer": 56,
+                            "Nye, Mrs. (Elizabeth Ramell)": 57,
+                            "Nysten, Miss. Anna Sofia": 58,
+                            "O'Dwyer, Miss. Ellen \"Nellie\"": 59,
+                            "Olsen, Mr. Ole Martin": 60,
+                            "Osen, Mr. Olaf Elon": 61,
+                            "Ostby, Mr. Engelhart Cornelius": 62,
+                            "Palsson, Master. Gosta Leonard": 63,
+                            "Panula, Master. Juha Niilo": 64,
+                            "Pekoniemi, Mr. Edvard": 65,
+                            "Peter, Miss. Anna": 66,
+                            "Petranec, Miss. Matilda": 67,
+                            "Porter, Mr. Walter Chamberlain": 68,
+                            "Rekic, Mr. Tido": 69,
+                            "Rice, Master. Eugene": 70,
+                            "Richard, Mr. Emile": 71,
+                            "Salkjelsvik, Miss. Anna Kristine": 72,
+                            "Samaan, Mr. Youssef": 73,
+                            "Sandstrom, Miss. Marguerite Rut": 74,
+                            "Sirayanian, Mr. Orsen": 75,
+                            "Skoog, Master. Harald": 76,
+                            "Slocovski, Mr. Selman Francis": 77,
+                            "Sloper, Mr. William Thompson": 78,
+                            "Sobey, Mr. Samuel James Hayden": 79,
+                            "Turpin, Mr. William John Robert": 80,
+                            "Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)": 81,
+                            "Vestrom, Miss. Hulda Amanda Adolfina": 82,
+                            "Waelens, Mr. Achille": 83,
+                            "Webber, Miss. Susan": 84,
+                            "Weisz, Mrs. Leopold (Mathilde Francoise Pede)": 85,
+                            "West, Miss. Constance Mirium": 86,
+                            "Wheadon, Mr. Edward H": 87,
+                            "White, Mr. Percival Wayland": 88,
+                            "Williams, Mr. Charles Duane": 89,
+                            "Williams, Mr. Charles Eugene": 90,
+                            "Zabour, Miss. Hileni": 91,
+                            "van Billiard, Mr. Austin Blyler": 92
+                        },
+                        "Sex": {
+                            "female": 0,
+                            "male": 1
+                        },
+                        "Ticket": {
+                            "110465": 0,
+                            "113059": 1,
+                            "113509": 2,
+                            "113572": 3,
+                            "113783": 4,
+                            "113788": 5,
+                            "113789": 6,
+                            "113803": 7,
+                            "11668": 8,
+                            "11752": 9,
+                            "1601": 10,
+                            "17463": 11,
+                            "19950": 12,
+                            "228414": 13,
+                            "230080": 14,
+                            "237736": 15,
+                            "244310": 16,
+                            "244373": 17,
+                            "248698": 18,
+                            "2631": 19,
+                            "2651": 20,
+                            "2661": 21,
+                            "2662": 22,
+                            "2665": 23,
+                            "2668": 24,
+                            "2669": 25,
+                            "2677": 26,
+                            "2680": 27,
+                            "2697": 28,
+                            "27267": 29,
+                            "3101278": 30,
+                            "3101295": 31,
+                            "324669": 32,
+                            "330877": 33,
+                            "330958": 34,
+                            "330959": 35,
+                            "335677": 36,
+                            "343120": 37,
+                            "345767": 38,
+                            "347077": 39,
+                            "347081": 40,
+                            "347082": 41,
+                            "347088": 42,
+                            "347742": 43,
+                            "348123": 44,
+                            "349207": 45,
+                            "349241": 46,
+                            "349245": 47,
+                            "349249": 48,
+                            "349253": 49,
+                            "349909": 50,
+                            "350043": 51,
+                            "350406": 52,
+                            "35281": 53,
+                            "364516": 54,
+                            "36973": 55,
+                            "371110": 56,
+                            "374746": 57,
+                            "382652": 58,
+                            "4136": 59,
+                            "7534": 60,
+                            "7540": 61,
+                            "A./5. 2152": 62,
+                            "A/5 21171": 63,
+                            "A/5. 851": 64,
+                            "A4. 54510": 65,
+                            "C 17369": 66,
+                            "C.A. 24579": 67,
+                            "C.A. 29178": 68,
+                            "C.A. 29395": 69,
+                            "C.A. 33111": 70,
+                            "C.A. 33112": 71,
+                            "C.A. 34651": 72,
+                            "CA 2144": 73,
+                            "Fa 265302": 74,
+                            "PC 17558": 75,
+                            "PC 17572": 76,
+                            "PC 17597": 77,
+                            "PC 17604": 78,
+                            "PP 9549": 79,
+                            "S.O.C. 14879": 80,
+                            "S.O.P. 1166": 81,
+                            "S.P. 3464": 82,
+                            "SC/PARIS 2133": 83,
+                            "SOTON/O.Q. 3101307": 84,
+                            "SOTON/OQ 392086": 85,
+                            "STON/O 2. 3101294": 86,
+                            "STON/O2. 3101279": 87,
+                            "W./C. 6608": 88
+                        },
+                        "Cabin": {
+                            "A6": 0,
+                            "B28": 1,
+                            "B30": 2,
+                            "B58 B60": 3,
+                            "C103": 4,
+                            "C110": 5,
+                            "C123": 6,
+                            "C23 C25 C27": 7,
+                            "C83": 8,
+                            "D26": 9,
+                            "D33": 10,
+                            "D47": 11,
+                            "D56": 12,
+                            "E101": 13,
+                            "E46": 14,
+                            "F E69": 15,
+                            "F G73": 16,
+                            "F2": 17,
+                            "F33": 18,
+                            "G6": 19
+                        },
+                        "Embarked": {
+                            "C": 0,
+                            "Q": 1,
+                            "S": 2
+                        }
+                    },
+                    "columns": [
+                        "Name",
+                        "Sex",
+                        "Ticket",
+                        "Cabin",
+                        "Embarked"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        46.169198243618546,
+                        0.8050884536488123,
+                        26.84523545560118,
+                        0.4674637660061109,
+                        12.44010508763018,
+                        1.123025495840594,
+                        26.070189062902198,
+                        46.21555874645241,
+                        3.0352688476781235,
+                        0.8110977275546712
+                    ],
+                    "mean": [
+                        79.3225806451613,
+                        2.3978494623655915,
+                        46.0,
+                        0.6774193548387096,
+                        28.043010752688172,
+                        0.6451612903225806,
+                        43.18279569892473,
+                        31.357347311827954,
+                        6.763440860215054,
+                        1.5268817204301075
+                    ],
+                    "var": [
+                        2131.59486645855,
+                        0.6481674181986358,
+                        720.6666666666666,
+                        0.218522372528616,
+                        154.75621459128226,
+                        1.2611862643080123,
+                        679.6547577754654,
+                        2135.877870246794,
+                        9.212856977685284,
+                        0.6578795236443518
+                    ],
+                    "n_samples_seen": 93,
+                    "n_features_in": 10,
+                    "columns": [
+                        "PassengerId",
+                        "Pclass",
+                        "Name",
+                        "Sex",
+                        "Age",
+                        "SibSp",
+                        "Ticket",
+                        "Fare",
+                        "Cabin",
+                        "Embarked"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "PassengerId": [
+                        "scale_normal"
+                    ],
+                    "Pclass": [
+                        "scale_normal"
+                    ],
+                    "Name": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Sex": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Age": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "SibSp": [
+                        "scale_normal"
+                    ],
+                    "Ticket": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Fare": [
+                        "scale_normal"
+                    ],
+                    "Cabin": [
+                        "na_fill_median",
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Embarked": [
+                        "na_fill_median",
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "49e3534b-3945-49d9-8ec3-ccde79cf5f96",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "PassengerId": [
+                    "scale_normal"
+                ],
+                "Pclass": [
+                    "scale_normal"
+                ],
+                "Name": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Sex": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Age": [
+                    "na_fill_median",
+                    "scale_normal"
+                ],
+                "SibSp": [
+                    "scale_normal"
+                ],
+                "Ticket": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Fare": [
+                    "scale_normal"
+                ],
+                "Cabin": [
+                    "na_fill_median",
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Embarked": [
+                    "na_fill_median",
+                    "categorical_to_int",
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "3_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "3_Linear\\learner_fold_0.linear"
+    ],
+    "predictions_fname": "3_Linear\\predictions_validation.csv",
+    "metric_name": "accuracy",
+    "final_loss": -0.6451612903225806,
+    "train_time": 10.659504413604736,
+    "is_stacked": false,
+    "threshold": 0.21301375971253483
+}

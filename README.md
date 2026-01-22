@@ -1,1 +1,1 @@
-# PYTHON-EAE
+# PYTHON EAE Business School

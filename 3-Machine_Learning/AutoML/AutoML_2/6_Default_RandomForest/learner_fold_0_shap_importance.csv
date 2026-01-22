@@ -1,0 +1,12 @@
+feature,shap_importance
+Sex,0.3222428879109178
+Ticket,0.07523309398778266
+PassengerId,0.0
+Pclass,0.0
+Name,0.0
+Age,0.0
+SibSp,0.0
+Parch,0.0
+Fare,0.0
+Cabin,0.0
+Embarked,0.0
